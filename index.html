@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Birthday Card</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <div class="page active" id="page1">
+      <div class="content">
+        <h1>🎉 Selamat Ulang Tahun Sayangggnyaa cipaaa !!! 🎂</h1>
+        <button onclick="nextPage(2)">Klik untuk Lanjut</button>
+      </div>
+    </div>
+    <div class="page" id="page2">
+      <div class="content">
+        <h1>Sayanggg semoga kamu diberkahi dengan umur yang panjang dan barokah, 
+            kesehatan yang baik,
+            dan tentunya selalu disertai kebahagiaaan!🥳
+            Semoga kerjaannya disana dilancarkan, 
+            dan selalu senantiasa dilindungi 
+            oleh Allah SWT dimanapun kamu berada ya sayangg🤍</h1>
+        <button onclick="nextPage(3)">Klik untuk Lanjut</button>
+      </div>
+    </div>
+    <div class="page" id="page3">
+      <div class="content">
+        <h1>Oh iyaa sayanggg, selalu jadi cowo baiknya cipaa yaa sayangg, 
+            semoga selalu sabar menghadapii akuu. 
+            Semoga kamu selaluu menyayangi dan 
+            mencintai akuu yaa sayanggg❤️.... 
+
+            Dan semoga cintanya kita makin hari makin nambah terus 
+            dan jangan ada kata bosan yaa❤️. 
+            Intinya semoga impian kamu tercapai, 
+            dan impian kita untuk hubungan kita tercapai ya sayangg🤍.
+            
+            Semoga Hubungan kita kali ini berhasil sesuai 
+            dengan ending yang sudah kita harap dan kita rencanakan yaa sayangg, Aamiinn🤲🏻!!!</h1>
+        <button onclick="nextPage(4)">Klik untuk Lanjut</button>
+      </div>
+    </div>
+    <div class="page" id="page4">
+      <div class="content">
+        <h1>Sayanggg, jangan pernah merasa sendiri yaa! 
+            Cipaaa alwayss here for u🤍
+
+            Maafkan aku yang selalu keras kepala dan 
+            suka marah-marah ya sayang😓🙏🏻.
+            Aku sayanggg kamuu, loveee u sayanggg❤️
+
+        </h1>
+        <button onclick="nextPage(5)">Klik untuk Lanjut</button>
+      </div>
+    </div>
+    <div class="page" id="page5">
+      <div class="content">
+        <h1>Semoga hal-hal baik selalu menyertaimu!
+            Happy Birthday & Wish U all the besttt 
+            sayangkuu Muhammad Adis Ardiansyah!❤️🤍</h1>
+        <button onclick="nextPage(6)">Klik untuk Lanjut</button>
+      </div>
+    </div>
+    <div class="page" id="page6">
+      <div class="content">
+        <h1>🎊 Terima Kasih Telah Membaca sayang, 
+            Sebelum lanjut aamiinkan dulu doa-doa baiknya yaa, 
+            dan jangan lupaa berdoa untuk harapan kamu selanjutnya yaa sayangkuu 🎊</h1>
+        <button onclick="nextPage(7)">Tombol untuk Mengaminkan!</button>
+      </div>
+    </div>
+    <div class="page" id="page7">
+      <div class="content">
+        <h1>🎂 Selamat Merayakan  Hari Ulang Tahunnya yaaa.... 
+            Muachhh Muachhh Muachhh💋💋💋! 🎂</h1>
+        <canvas id="cakeCanvas"></canvas>
+        <button onclick="restart()">Selesai!
+             Terima kasih sudah membaca!
+             Semoga semua wishlist nya tercapai yaa sayanggg, Aamiinn🤲🏻</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
